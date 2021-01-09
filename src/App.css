@@ -1,1 +1,9 @@
+.App {
+  border: 1px solid;
+  border-radius: 4px;
+  max-width: 600px;
+}
 
+h1 {
+  text-align: center;
+}

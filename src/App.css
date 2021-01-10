@@ -1,9 +1,19 @@
 .App {
   border: 1px solid;
   border-radius: 4px;
-  max-width: 600px;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 0 auto;
+  font-family: "Bodoni Moda", serif;
+  font-family: "Redressed", cursive;
+  font-family: "Yeon Sung", cursive;
 }
 
-h1 {
+.App ul {
+  list-style: none;
+}
+
+.App li {
+  display: inline;
   text-align: center;
 }

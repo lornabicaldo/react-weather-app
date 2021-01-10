@@ -1,9 +1,18 @@
-.icon {
-  margin: 5px 0px 0px 250px;
+.weather-icon {
+  margin: 5px 0px 0px 200px;
 }
 
 .weather h2,
 h3,
-h4 {
+h4,
+h5 {
+  text-align: center;
+}
+
+.weather ul {
+  list-style: none;
+  margin-top: 18px;
+}
+.weather li {
   text-align: center;
 }

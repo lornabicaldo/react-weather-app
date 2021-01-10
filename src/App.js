@@ -12,6 +12,10 @@ export default function App() {
      <SearchForm />
      <Weather />
      <Forecast />
+     <hr />
+     <p>
+       <small>🌊 Open-source code with 🧡 by Lorna Bicaldo 🌟 |<a href="https://github.com/lornabicaldo/react-weather-app" target="_blank"> Github</a></small>
+     </p>
     </div>
   );
 }

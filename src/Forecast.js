@@ -10,7 +10,7 @@ export default function Forecast() {
                  <div className="forecast-icon">
                    <ReactAnimatedWeather
                      icon= 'CLEAR_DAY'
-                     color= 'goldenrod'
+                     color= 'yellow'
                      size= '40'
                      animate= 'true'
                    />
@@ -24,7 +24,7 @@ export default function Forecast() {
                  <div className="forecast-icon">
                    <ReactAnimatedWeather
                      icon= 'PARTLY_CLOUDY_DAY'
-                     color= 'goldenrod'
+                     color= '#00917c'
                      size= '40'
                      animate= 'true'
                    />
@@ -38,7 +38,7 @@ export default function Forecast() {
                  <div className="forecast-icon">
                    <ReactAnimatedWeather
                      icon= 'SNOW'
-                     color= 'goldenrod'
+                     color= '#f6ecf0'
                      size= '40'
                      animate= 'true'
                    />
@@ -52,7 +52,7 @@ export default function Forecast() {
                  <div className="forecast-icon">
                    <ReactAnimatedWeather
                      icon= 'WIND'
-                     color= 'goldenrod'
+                     color= '#045762'
                      size= '40'
                      animate= 'true'
                    />
@@ -66,7 +66,7 @@ export default function Forecast() {
                  <div className="forecast-icon">
                    <ReactAnimatedWeather
                      icon= 'FOG'
-                     color= 'goldenrod'
+                     color= '#a685e2'
                      size= '40'
                      animate= 'true'
                    />
@@ -80,7 +80,7 @@ export default function Forecast() {
                  <div className="forecast-icon">
                    <ReactAnimatedWeather
                      icon= 'SLEET'
-                     color= 'goldenrod'
+                     color= '#ea97ad'
                      size= '40'
                      animate= 'true'
                    />

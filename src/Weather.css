@@ -16,3 +16,7 @@ h5 {
 .weather li {
   text-align: center;
 }
+
+.card {
+  background-color: #ffcda3;
+}

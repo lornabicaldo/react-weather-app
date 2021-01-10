@@ -7,6 +7,12 @@
   font-family: "Bodoni Moda", serif;
   font-family: "Redressed", cursive;
   font-family: "Yeon Sung", cursive;
+  background-image: linear-gradient(
+    to top,
+    #d5dee7 0%,
+    #ffafbd 0%,
+    #c9ffbf 100%
+  );
 }
 
 .App ul {

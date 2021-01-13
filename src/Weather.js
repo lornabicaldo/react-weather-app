@@ -13,7 +13,7 @@ export default function Weather() {
          animate= 'true'
          />
        </div>
-       <h2 >32°</h2>
+       <h2 >32<span className="unit">°C |°F</span></h2>
        <h3 >Valleta</h3>
        <h4 >Sunny</h4>
        <h5>Sun, Jan. 10, 2021</h5>

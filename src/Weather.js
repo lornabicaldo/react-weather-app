@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ReactAnimatedWeather from 'react-animated-weather';
+import UpdatedDate from "./UpdatedDate";
 import axios from "axios";
 import "./Weather.css";
 
@@ -12,6 +13,7 @@ export default function Weather() {
       temperature: response.data.main.temp,
       city: response.data.name,
       description: response.data.weather[0].description,
+      date: new Date(response.data.dt * 1000),
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
       pressure: response.data.main.pressure,
@@ -26,13 +28,13 @@ export default function Weather() {
          icon= 'CLEAR_DAY'
          color= 'goldenrod'
          size= '100'
-         animate= 'true'
+         animate= "true"
          />
        </div>
        <h2 >{Math.round(weatherData.temperature)}<span className="unit">°C |°F</span></h2>
        <h3 >{weatherData.city}</h3>
        <h4 className="text-capitalized">{weatherData.description}</h4>
-       <h5>Sun, Jan. 10, 2021</h5>
+       <h5><UpdatedDate date={weatherData.date} /></h5>
        <div className="row row-cols-1 row-cols-md-3 g-0">
      <div className="col">
     <div className="card">

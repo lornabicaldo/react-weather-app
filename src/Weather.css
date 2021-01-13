@@ -4,9 +4,13 @@
 
 .weather h2,
 h3,
-h4,
-h5 {
+h4 {
   text-align: center;
+}
+
+.weather h5 {
+  text-align: center;
+  font-size: 15px;
 }
 
 .weather ul {

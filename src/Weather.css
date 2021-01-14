@@ -15,14 +15,21 @@ h4 {
 
 .weather ul {
   list-style: none;
-  margin-top: 18px;
 }
+
 .weather li {
   text-align: center;
 }
 
+.fa-wind {
+  color: blue;
+}
+
 .card {
   background-color: #ffcda3;
+  max-width: 250px;
+  max-height: 50px;
+  margin: 5px 0px 5px 0px;
 }
 
 .unit {

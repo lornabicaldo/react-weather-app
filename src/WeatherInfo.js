@@ -1,19 +1,14 @@
 import React from "react";
 import UpdatedDate from "./UpdatedDate";
-import ReactAnimatedWeather from "react-animated-weather";
+import WeatherIcon from "./WeatherIcon";
+
 
 
 export default function WeatherInfo(props) {
     return (
         <div className="WeatherInfo">
-         <div className="weather-icon">
-           <ReactAnimatedWeather
-         icon= 'CLEAR_DAY'
-         color= 'goldenrod'
-         size= '100'
-         animate= 'true'
-         />
-       </div>
+            <WeatherIcon code={props.data.icon} />
+         
        <h2 >{Math.round(props.data.temperature)}<span className="unit">°C |°F</span></h2>
        <h3 >{props.data.city}</h3>
        <h4 className="text-capitalized">{props.data.description}</h4>

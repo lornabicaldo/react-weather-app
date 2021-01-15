@@ -39,3 +39,7 @@ h4 {
   line-height: 1;
   top: -5px;
 }
+
+.search-form {
+  margin: 20px 0px 10px 20px;
+}

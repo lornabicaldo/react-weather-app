@@ -1,15 +1,8 @@
-.weather-icon {
-  margin: 5px 0px 0px 200px;
-}
-
-.weather h2,
-h3,
-h4 {
-  text-align: center;
+.WeatherIcon {
+  display: block;
 }
 
 .weather h5 {
-  text-align: center;
   font-size: 15px;
 }
 

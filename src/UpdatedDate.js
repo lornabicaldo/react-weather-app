@@ -37,8 +37,8 @@ export default function UpdatedDate(props) {
         minutes = `0${minutes}`;
     }
     return (
-        <div>
-            {day} {month} {date}, {hours}:{minutes} {year}
+        <div className="date">
+            {day} {date} {month}, {year} {hours}:{minutes}
         </div>
     );
 }

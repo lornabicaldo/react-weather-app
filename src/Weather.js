@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
- import Loader from "react-loader-spinner";
+import Loader from "react-loader-spinner";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast"
 import "./Weather.css";
@@ -48,14 +48,14 @@ export default function Weather(props) {
    return( 
       <div className="weather">
       <div className="search-form">
+        <div className="row">
+          <div className="col-6">
             <form onSubmit={handleSubmit}>
-             <div className="row">
-             <div className="col-6">
              <input type="Search" placeholder="Search a city..." className="form-control" autoFocus="on" onChange={handleCityChange}/>
              <button type="submit"><i className="fas fa-search-location"></i></button> 
-             </div>
-             </div>
             </form>
+            </div>
+            </div>
         </div>
    <WeatherInfo data={weatherData} />
    <WeatherForecast city={weatherData.city} />

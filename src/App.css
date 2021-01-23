@@ -15,11 +15,14 @@
   );
 }
 
-.App ul {
-  list-style: none;
+.App footer {
+  float: right;
 }
 
-.App li {
-  display: inline;
-  text-align: center;
+.App img {
+  margin-left: 5px;
+}
+
+.fa-github {
+  margin-left: 5px;
 }

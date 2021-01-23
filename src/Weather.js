@@ -17,6 +17,9 @@ export default function Weather(props) {
       city: response.data.name,
       description: response.data.weather[0].description,
       date: new Date(response.data.dt * 1000),
+      feelsLike: response.data.main.feels_like,
+      minTemp: response.data.main.temp_min,
+      maxTemp: response.data.main.temp_max,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
       pressure: response.data.main.pressure,
@@ -62,11 +65,10 @@ export default function Weather(props) {
     search();
   return ( 
       <Loader
-         type="TailSpin"
+         type="Bars"
          color="#00BFFF"
          height={100}
          width={100}
-         timeout={3000} //3 secs
       />
   );
   }

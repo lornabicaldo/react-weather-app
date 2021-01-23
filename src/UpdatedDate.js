@@ -38,7 +38,7 @@ export default function UpdatedDate(props) {
     }
     return (
         <div>
-            Last Updated: {day} {month} {date}, {hours}:{minutes} {year}
+            {day} {month} {date}, {hours}:{minutes} {year}
         </div>
     );
 }

@@ -2,6 +2,10 @@
   display: block;
 }
 
+.weather h4::first-letter {
+  text-transform: capitalize;
+}
+
 .weather h5 {
   font-size: 15px;
 }
@@ -34,7 +38,7 @@
 }
 
 .search-form {
-  margin: 20px 0px 10px 20px;
+  margin: 20px 0px 10px 0px;
 }
 
 .form-control {

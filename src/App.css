@@ -1,18 +1,18 @@
 .App {
   border: 1px solid;
   border-radius: 4px;
+  border-color: #89f7fe;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
   max-width: 500px;
   display: block;
   margin: 0 auto 0 auto;
   font-family: "Bodoni Moda", serif;
   font-family: "Redressed", cursive;
   font-family: "Yeon Sung", cursive;
-  background-image: linear-gradient(
-    to top,
-    #d5dee7 0%,
-    #ffafbd 0%,
-    #c9ffbf 100%
-  );
+  background-image: url(https://th.bing.com/th/id/OIP.yCcE92zwijnyisO760DwKQHaEK?w=283&h=180&c=7&o=5&pid=1.7);
+  background-size: 750px;
+  background-repeat: no-repeat;
 }
 
 .App footer {

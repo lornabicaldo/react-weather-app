@@ -13,21 +13,21 @@ export default function WeatherInfo(props) {
           <div className="row">
              <div className="col-4">
                <WeatherIcon code={props.data.icon} />
-               <h4 >{props.data.description}</h4>
+               <h4>{props.data.description}</h4>
              </div>
              <div className="col-3">
                <WeatherTemperature celsius={props.data.temperature} />
-                <p className="minMaxTemp">{Math.round(props.data.minTemp)}/{Math.round(props.data.maxTemp)}°C</p>
-                <p className="feels-like"> feels like: {Math.round(props.data.feelsLike)}°C</p>
+               <div className="minMaxTemp"><i class="fas fa-long-arrow-alt-down"></i>{Math.round(props.data.minTemp)}° <i class="fas fa-long-arrow-alt-up"></i><strong>{Math.round(props.data.maxTemp)}</strong>°C</div>
+               <div className="feels-like"> Feels like: {Math.round(props.data.feelsLike)}°C</div>
              </div>
-             <div className="col-4">
-                <h3 >{props.data.city}</h3>
+             <div className="col-3">
+                <h3>{props.data.city}</h3>
              </div>
           </div>
           <ul>
-           <li>Wind <i className="fas fa-wind"></i>: {Math.round(props.data.wind)}km/h</li>
-           <li>Humidity💧: {props.data.humidity}%</li>
-           <li>Pressure⏲: {props.data.pressure}</li>
+           <li>Wind <i className="fas fa-wind"></i>: <strong>{Math.round(props.data.wind)}</strong> km/h</li>
+           <li>Humidity💧: <strong>{props.data.humidity}</strong> %</li>
+           <li>Pressure⏲: <strong>{props.data.pressure}</strong> mb</li>
           </ul>
     </div>
  );

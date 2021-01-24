@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import Loader from "react-loader-spinner";
 import WeatherInfo from "./WeatherInfo";
-import WeatherForecast from "./WeatherForecast"
+import WeatherForecast from "./WeatherForecast";
+import WeatherAnimatedClouds from "./WeatherAnimatedClouds";
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -46,7 +47,7 @@ export default function Weather(props) {
 
   if (weatherData.ready) {
    return( 
-      <div className="weather">
+      <div className="Weather">
       <div className="search-form">
         <div className="row">
           <div className="col-6">
@@ -57,6 +58,7 @@ export default function Weather(props) {
             </div>
             </div>
         </div>
+   <WeatherAnimatedClouds />     
    <WeatherInfo data={weatherData} />
    <WeatherForecast city={weatherData.city} />
     </div>

@@ -20,7 +20,7 @@ export default function WeatherInfo(props) {
                 <p className="minMaxTemp">{Math.round(props.data.minTemp)}/{Math.round(props.data.maxTemp)}°C</p>
                 <p className="feels-like"> feels like: {Math.round(props.data.feelsLike)}°C</p>
              </div>
-             <div className="col-3">
+             <div className="col-4">
                 <h3 >{props.data.city}</h3>
              </div>
           </div>

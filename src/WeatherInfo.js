@@ -17,7 +17,7 @@ export default function WeatherInfo(props) {
              </div>
              <div className="col-3">
                <WeatherTemperature celsius={props.data.temperature} />
-               <div className="minMaxTemp"><i class="fas fa-long-arrow-alt-down"></i>{Math.round(props.data.minTemp)}° <i class="fas fa-long-arrow-alt-up"></i><strong>{Math.round(props.data.maxTemp)}</strong>°C</div>
+               <div className="minMaxTemp">{Math.round(props.data.minTemp)}°C<i class="fas fa-long-arrow-alt-down"></i> / <strong>{Math.round(props.data.maxTemp)}</strong>°C<i class="fas fa-long-arrow-alt-up"></i></div>
                <div className="feels-like"> Feels like: {Math.round(props.data.feelsLike)}°C</div>
              </div>
              <div className="col-3">

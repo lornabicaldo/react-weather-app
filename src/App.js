@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
          <Weather defaultCity="Valletta"/>
           <footer>
-            <small>Coded by: Lorna Bicaldo </small>
+            <small>Built by: Lorna Bicaldo </small>
               <span className="links">
                 <a href="https://github.com/lornabicaldo/react-weather-app" rel="noreferrer" target="_blank">
                  <i className="fab fa-github"></i></a>

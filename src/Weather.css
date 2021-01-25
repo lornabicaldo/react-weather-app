@@ -17,3 +17,8 @@
   border-radius: 15px;
   height: 29px;
 }
+
+.loader {
+  display: block;
+  margin: 0 auto 0auto;
+}

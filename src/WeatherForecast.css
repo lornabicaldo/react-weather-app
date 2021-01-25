@@ -1,5 +1,6 @@
 .WeatherForecast {
   text-align: center;
+  color: #4d375d;
 }
 
 .WeatherForecast canvas {

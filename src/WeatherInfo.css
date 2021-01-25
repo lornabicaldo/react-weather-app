@@ -32,21 +32,21 @@ h2 {
 li {
   display: inline;
   margin: 0 10px;
-  color: #16697a;
+  color: #4d375d;
 }
 
 .minMaxTemp {
-  color: #16a596;
+  color: #4d375d;
 }
 
 .feels-like {
   font-size: 15px;
   margin-top: 8px;
-  color: #16a596;
+  color: #4d375d;
 }
 
 .date {
-  color: #16a596;
+  color: #4d375d;
 }
 
 .unit {

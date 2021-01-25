@@ -10,6 +10,7 @@ export default function Weather(props) {
   
   const [weatherData, setWeatherData] = useState({ready: false});
   const [city, setCity] = useState(props.defaultCity);
+  
   function handleResponse(response) {
     setWeatherData({
       ready: true,
@@ -47,7 +48,7 @@ export default function Weather(props) {
 
   if (weatherData.ready) {
    return( 
-      <div className="Weather">
+    <div className="Weather">
       <div className="search-form">
         <div className="row">
           <div className="col-6">
@@ -55,23 +56,25 @@ export default function Weather(props) {
              <input type="Search" placeholder="Search a city..." className="form-control" autoFocus="on" onChange={handleCityChange}/>
              <button type="submit"><i className="fas fa-search-location"></i></button> 
             </form>
-            </div>
-            </div>
+          </div>
         </div>
+      </div>
    <WeatherAnimatedClouds />     
    <WeatherInfo data={weatherData} />
    <WeatherForecast city={weatherData.city} />
-    </div>
+   </div>
   );
   } else {
     search();
   return ( 
+    <div className="loader">
       <Loader
          type="Bars"
          color="#00BFFF"
          height={100}
          width={100}
       />
+    </div>
   );
   }
 }

@@ -11,10 +11,10 @@
   font-family: "Redressed", cursive;
   font-family: "Yeon Sung", cursive;
   background-image: url(https://th.bing.com/th/id/OIP.yCcE92zwijnyisO760DwKQHaEK?w=283&h=180&c=7&o=5&pid=1.7);
-  background-size: 930px;
   background-repeat: no-repeat;
   overflow: hidden;
-  background: cover;
+  background-position: center;
+  background-size: cover;
 }
 
 .App footer {

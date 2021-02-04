@@ -19,8 +19,7 @@ export default function WeatherForecast(props) {
        <WeatherForecastInfo data={forecast.list[1]} />  
        <WeatherForecastInfo data={forecast.list[2]} />  
        <WeatherForecastInfo data={forecast.list[3]} />  
-       <WeatherForecastInfo data={forecast.list[4]} />
-       <WeatherForecastInfo data={forecast.list[5]} />   
+       <WeatherForecastInfo data={forecast.list[4]} />  
      </div>
     );
   } else {

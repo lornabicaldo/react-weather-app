@@ -1,7 +1,7 @@
-.Weather button {
+.button-search {
   position: absolute;
   right: 25px;
-  top: 2px;
+  top: 5px;
   width: 25px;
   height: 25px;
   border: none;
@@ -15,10 +15,14 @@
 
 .form-control {
   border-radius: 15px;
-  height: 29px;
+  height: 35px;
 }
 
 .loader {
   display: block;
   margin: 0 auto 0auto;
+}
+
+.btn-success {
+  background-color: #926ead;
 }

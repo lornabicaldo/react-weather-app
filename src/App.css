@@ -4,7 +4,7 @@
   border-color: #9ba3a3;
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-  max-width: 600px;
+  max-width: 500px;
   display: block;
   margin: 0 auto 0 auto;
   font-family: "Bodoni Moda", serif;
@@ -20,7 +20,8 @@
 .App footer {
   float: right;
   margin-top: 10px;
-  color: #4d375d;
+  margin-bottom: 5px;
+  color: #0b08c4;
 }
 
 .App img {
@@ -29,4 +30,9 @@
 
 .fa-github {
   margin-left: 5px;
+}
+
+.container {
+  overflow: hidden;
+  position: relative;
 }

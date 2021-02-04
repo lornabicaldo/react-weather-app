@@ -59,12 +59,7 @@ export default function Weather(props) {
 
     axios.get(apiUrl).then(handleResponse); 
   }
-
-  function handleButton(event) {
-    event.preventDefault();
-    searchLocation();
-  }
-
+  
   if (weatherData.ready) {
    return( 
     <div className="Weather">
